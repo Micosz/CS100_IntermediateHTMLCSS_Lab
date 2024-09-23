@@ -147,4 +147,5 @@ footer {
 
 footer p {
     margin: 0;
+    clear: both;
 }

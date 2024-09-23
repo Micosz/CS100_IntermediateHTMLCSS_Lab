@@ -58,6 +58,8 @@ nav ul li a:hover {
 
 /* Main Content Styles */
 main {
+    width: 70%;
+    float: right;
     padding: 20px;
 }
 

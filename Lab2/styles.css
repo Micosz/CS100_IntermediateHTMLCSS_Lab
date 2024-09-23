@@ -29,6 +29,9 @@ nav {
     background-color: #ffa41b;
     padding: 15px;
     text-align: center;
+    float: left;
+    width: 20%;
+    height: 100vh; /*Viewport Height (vh) will set it as max as slide can be*/
 }
 
 nav ul {
@@ -36,10 +39,10 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-
+/* No , mean directory only */
 nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+    display: block;
+    margin: 15px; /* Top Bottom Left Right */
 }
 
 nav ul li a {

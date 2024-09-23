@@ -39,7 +39,8 @@ This file contains the structure we will style using CSS.
 ### Step 2: Setting Up the CSS File
 - In your code editor, create a new file and name it `layout.css`.
 - In the `<head>` section of `index.html`, link the CSS file:
-```css
+```html
+<link rel="stylesheet" href="layout.css">
 ```
 
 - Write a CSS rule in `layout.css` to perform the following:

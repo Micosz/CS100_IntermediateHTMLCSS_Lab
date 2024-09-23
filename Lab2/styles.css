@@ -26,6 +26,8 @@ header p {
 
 /* Navigation Styles */
 nav {
+    position: sticky;
+    top: 10px;
     background-color: #ffa41b;
     padding: 15px;
     text-align: center;

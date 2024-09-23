@@ -8,7 +8,48 @@ body {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
-header, nav, article, div, footer {
+
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid gray; 
+    text-align: center;
+}
+
+nav {
+    height: 200px;
+    width: 20%;
+    float: left;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid gray; 
+    text-align: center;
+}
+
+article {
+    height: 200px;
+    width: 60%;
+    float: left;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid gray; 
+    text-align: center;
+}
+
+div{
+    height: 200px;
+    width: 20%;
+    float: left;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid gray; 
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    width: 100%;
     padding: 10px;
     background-color: yellow;
     border: 1px solid gray; 
